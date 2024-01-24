@@ -6,7 +6,8 @@ const path = require("path");
 const public_path = path.resolve(__dirname, "./public");
 app.use(express.static(public_path));
 
-app.listen(3000, () => {
+const port = process.env.PORT || 3000;
+app.listen(port, () => {
     console.log("Server OK");
 });
 
