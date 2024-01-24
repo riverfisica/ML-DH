@@ -3,9 +3,12 @@
 }
 body {
     font-family: 'Roboto', sans-serif;
+    font-size: 16px;
 }
 header, main, footer {
     width: 100%;
+    padding: 10px;
+    margin: auto;
 }
 header {
     background-color: #EAC926;
@@ -16,17 +19,38 @@ p{
 h2 {
     font-size: 24px;
 }
+ol {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+
 
 .icons-app {
-    width: 16px;
-    height: auto;
+    width: 2em;
+    margin-bottom: 10px;
 }
 .logo-mercado-liebre {
     width: 20%;
 }
+.recommendation-home {
+    text-align: center;
+}
+.burger-menu {
+    text-align: center;
+
+}
+.home-banner-ml {
+    width: 100%;
+}
+
 .price-product {
     font-size: 18px;
 }
 .discount-product {
     font-size: 16px;
+}
+.producto {
+    text-align: center;
 }
