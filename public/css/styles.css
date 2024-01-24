@@ -25,7 +25,9 @@ ol {
 a {
     text-decoration: none;
 }
-
+img {
+    width: 100%;
+}
 
 .icons-app {
     width: 2em;
