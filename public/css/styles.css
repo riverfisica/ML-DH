@@ -28,10 +28,20 @@ a {
 img {
     width: 100%;
 }
-
+footer {
+    text-align: center;
+}
 .icons-app {
     width: 2em;
     margin-bottom: 10px;
+}
+.icons-footer {
+    width: 2em;
+    margin-bottom: 10px;
+    fill: #1259c3;
+}
+.p-footer {
+    color: #666;;
 }
 .logo-mercado-liebre {
     width: 20%;
